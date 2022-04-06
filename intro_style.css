@@ -1,0 +1,84 @@
+*{
+    /*   border:solid 1px blue; */
+      box-sizing:border-box;
+      position:relative;
+    }
+    body,html{
+      height:100%;width:100%;
+      padding:0px;margin:0px;
+      overflow:hidden;
+    }
+    .paper{
+      height:200px; width:350px;
+      
+      position:relative;
+      top:150px;
+      margin-left:auto;margin-right:auto;
+    
+      background-color:white;
+      border-radius:3px;
+      
+      box-shadow:5px 5px 15px rgba(87,124,138,0.3);
+      overflow:hidden;
+    }
+    .elm{
+      height:250px;width:350px;
+      border-radius:40%;
+      
+      position:absolute;
+      top:-100px;
+      
+      background-color:rgba(33,30,85,1);
+      box-shadow:2px 5px 5px rgba(33,30,85,0.2);
+      }
+    .card{
+      height:200px; width:350px;
+      position:relative;
+      
+      padding:8px;
+      box-sizing:border-box;
+      
+      color:white;
+      font-family:微軟正黑體;
+      font-size:24px;
+      text-align:center;
+      
+      background-color:rgba(255,255,255,0);
+    }
+    .name{
+      font-size:48px;
+      font-weight:100;
+      margin-top:10px;
+      color:rgba(254,223,225,1);
+    }
+    .name span{ 
+      font-size:20px;
+      color:white;
+    }
+    .title{
+      font-weight:700;
+      font-size:16px;
+      letter-spacing:3px;
+      margin-top:15px;
+    }
+    .title span{
+      color:rgba(254,223,225,1);
+    }
+    .info{
+      text-align:center;
+      margin-top:35px;
+    }
+    .info p{
+      display:inline-block;
+      font-size:12px;
+      margin:5px;
+      color:#211E55;
+    }
+    .bg{
+      height:100%;width:100%;
+      position:absolute;
+      padding-top:25px;
+      font-size:200px;
+      color:rgba(254,223,225,0.4);
+      background-color:rgba(33,30,85,0.03);
+    }
